@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.tsx": "typescriptreact",
+        "*.js": "javascriptreact",
+        "*.wxss": "css",
+        "*.wxml": "xml",
+        "*.scss": "scss",
+        "*.svg": "html",
+        "*.md": "markdown",
+        "*.jsx": "javascriptreact",
+        "stdio.h": "c"
+    }
+}

@@ -2,13 +2,14 @@
 
 void f(int i)
 {
-    i = 99;
+    i = 99; // 无法影响外面的i变量
 }
 
 int main(void)
 {
-    int i =6;
+    int i = 6;
     printf("调用f之前的i = %d\n",i);
+
     f(i);
     printf("%d\n",i);
 

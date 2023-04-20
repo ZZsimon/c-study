@@ -1,27 +1,20 @@
 # include <stdio.h>
 
-void huhuan_1(int x,int y)
+// m和n都是函数内部定义的变量，它们都接受一个地址 
+void swap(int * m, int * n)
 {
-    int t;
-    t = x;
-    x = y;
-    y = t;
-
-    printf("huhuan函数中的x和y: x = %d,y=%d\n",x,y);
+    int t = *m; // 通过 *操作符可以获取a变量关联的存储空间中的值，也就是3
+    *m = *n;
+    *n = t;
 }
 
-
-/**
- * 要求互换x和y的值
-*/
 int main(void)
 {
-    int a = 3; 
+    int a = 3;
     int b = 5;
 
-    huhuan_1(a, b);
-
-    printf("互换之后: x = %d,y=%d\n", a, b);
+    swap(&a, &b);
+    printf("a= %d, b = %d\n", a, b);
 
     return 0;
 }

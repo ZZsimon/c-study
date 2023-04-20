@@ -20,7 +20,6 @@ int main(void)
     // 因此，需要定义一个char类型的指针变量
     char * n;
     n = &ch2;
-    
 
     return 0;
 }

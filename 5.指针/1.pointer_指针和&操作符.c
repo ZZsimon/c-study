@@ -25,5 +25,10 @@ int main(void)
     
     // p=i; // 错误！p只能存放地址！
 
+
+    // 打印[普通变量的内存地址]和 [指针变量的内存地址]
+    printf("%p\n",&i);
+    printf("%p\n",&p);
+
     return 0;
 }

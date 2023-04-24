@@ -9,6 +9,7 @@
         "*.svg": "html",
         "*.md": "markdown",
         "*.jsx": "javascriptreact",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "malloc.h": "c"
     }
 }

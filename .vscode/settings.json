@@ -10,6 +10,7 @@
         "*.md": "markdown",
         "*.jsx": "javascriptreact",
         "stdio.h": "c",
-        "malloc.h": "c"
+        "malloc.h": "c",
+        "mm_malloc.h": "c"
     }
 }
